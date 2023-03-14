@@ -19,40 +19,15 @@
     </div>
     <div class="answer">
         <p>
-            A melhor opção é criar uma variável para armazenar o valor conforme ele for alterado. Por exemplo:
+            A melhor opção é criar uma variável para armazenar o valor do fatorial conforme formos realizando as multiplicações. Um exemplo similar, mas utilizando soma:
         </p>
          <pre class="brush: python">
-collatz = 5
-# vamos alterar o collatz para um valor que é o triplo dele mais um
-collatz = collatz*3+1
-# vamos alterar o collatz para um valor que é metade dele
-collatz = collatz/2
-        </pre>
-        <p>
-            Agora basta inseri-lo na lista da mesma forma que fizemos nos exercícios de contagem.
-        </p>
-          
-     </div>
-</div>
-<div class="question-answer">
-    <div class="question">
-        <p>
-            Devo utilizar condicionais, certo?
-        </p>
-    </div>
-    <div class="answer">
-        <p>
-            Sim, aqui vai um exemplo para facilitar, mas não se acostume:
-        </p>
-         <pre class="brush: python">
-if temperatura > 30:
-    print("Está calor")
-elif temperatura < 15:
-    print("Está frio")
-else:
-    print("Está agradável")
+soma = soma + i
+# dessa forma, mantemos o valor anterior da soma, enquanto adicionamos o valor de i
+
         </pre>
           
      </div>
 </div>
+
 </body>
